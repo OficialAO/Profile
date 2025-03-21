@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: ‘Arial’, sans-serif;
+    line-height: 1.6;
+    color: #fffbfb;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    padding: 21px;
+}
+
+/* Cabeçalho */
+header {
+    background-image: linear-gradient(#3e7ddb, #010147 );
+    color: #fff;
+    padding:15px ;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 1px 2px 2px  rgba(1, 1, 71, 0.568);
+  min-height: 150px;
+  padding-bottom: 0;
+
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: -9px;
+    font-size: 50px;
+   
+}
+
+nav {
+   padding:  5px;
+   
+   min-width: 450px;
+   display:flexbox;
+   margin-top: 45px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+   
+    box-shadow: inset 2px 2px 5px  rgba(1, 1, 71, 0.568);
+  padding:  4px;
+margin-left: 4px;
+border-radius: 3px;
+
+
+}
+
+nav  a:hover {
+    text-decoration: none;
+
+    color:  #4c74af;
+    background-color: #faf8f8;
+    padding: 8px;
+    transition: 0.5s;
+    border-radius: 0px 10px;
+    text-shadow: none;
+}
+
+/* Seções */
+section {
+    margin: 19px auto;
+    background-color: #4c74af;
+    padding: 20px;
+    border-radius:8px 8px 0px 0px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.726);
+    min-width: 450px;
+    max-width:1250PX;
+    text-shadow: 1px 0px1px black;
+    background-image: linear-gradient(#3e7ddb, #010147 );
+}
+section img{
+   
+   max-width: 30px;
+display: inline-flexbox;
+border-radius:10px;
+border: 1px black;
+
+}
+section  a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    
+    box-shadow: 1px 1px 2px  rgba(1, 1, 71, 0.568);
+  padding:  7px;
+
+}
+
+
+
+
+section a:hover{  
+    text-decoration: none;
+
+    color:  #4c74af;
+    background-color: #faf8f8;
+    padding: 8px;
+    transition: 0.5s;
+    border-radius: 0px 10px;
+    text-shadow: none;
+}
+
+
+
+
+
+
+section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.795);
+
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ol {
+    padding-left: 18px;
+}
+
+
+
+
+/* Formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-image: linear-gradient(#3e7ddb, #010147 );
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form button:hover {
+    background-image: linear-gradient( white,#3e7ddb );
+    color:black; 
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 0px 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.897);
+    font-weight: bolder;
+
+}
+
+footer p{
+
+    color: black;
+    padding: 20px;  
+    
+}
+
+
